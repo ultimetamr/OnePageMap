@@ -1,6 +1,7 @@
 # OnePageMap Engineering Notes
 
 - PICO Spatial SDK 0.13.3, Android/Kotlin, `DefaultWindowContainer` Planar only.
+- Launcher/application label is the Chinese name `一页路线图`. Android background/recents and PICO spatial presentation share the same teal route-and-flag mark; `ic_launcher` is the adaptive vector, while `icon.3d.list`/`icon.sdf.list` use matching layered PNG masks.
 - Keep `Main.kt` as entry wiring; business state lives in `ui`, rules in `domain`, persistence/export in `data`.
 - Use `PicoTheme` and SpatialUI built-ins for standard controls. Do not import Material or Material3.
 - Core limits: 12 steps and 10 local saves. Deleting a step must also remove incident connections. Duplicate/self connections are rejected.

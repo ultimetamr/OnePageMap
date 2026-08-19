@@ -34,3 +34,11 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Local runtime verification captures
+/artifacts/
+
+# Spatial Editor local state
+editor-asset/**/.CacheData/
+editor-asset/**/UserSettings/
+editor-asset/**/ModelView
